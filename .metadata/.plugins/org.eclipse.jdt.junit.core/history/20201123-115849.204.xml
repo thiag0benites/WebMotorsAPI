@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="2.684">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="2.684">
+      <testsuite name="Cenario: API para recuperar marcas cadastradas na webmotors" time="2.684">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Make&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.001"/>
+        <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="2.673"/>
+        <testcase name="Então valido o Schema &quot;schemaMarcas&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.01"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,
 		glue = {""},
-		tags = {"@CT01"}
+		tags = {"@GETS"}
 		)
 
 public class TestRunner {

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="15" started="15" failures="6" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="6.872">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="6.872">
+      <testsuite name="Esquema do Cenario: API para recuperar paginas dos veiculos cadastrados na webmotors" time="6.872">
+        <testsuite name="Exemplos:" time="6.872">
+          <testsuite name="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="3.598" incomplete="true">
+            <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.003"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;1&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.001"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="2.804"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.789"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.001">
+              <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+          <testsuite name="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="2.08" incomplete="true">
+            <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;2&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.534"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="1.545"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.001">
+              <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+          <testsuite name="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="1.138" incomplete="true">
+            <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;3&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.527"/>
+            <testcase name="E valido a quantidade de veiculos &quot;1&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.611"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.0">
+              <failure>java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;404&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at requests.com.br.Gets.Get(Gets.java:34)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:54)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaPaginas"(GetAPIWebMotors.feature:32)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

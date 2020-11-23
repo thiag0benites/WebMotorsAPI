@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="8" started="8" failures="2" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="2.943">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="2.943">
+      <testsuite name="Esquema do Cenario: API para recuperar modelos cadastradas na webmotors" time="2.943">
+        <testsuite name="Exemplos:" time="2.943">
+          <testsuite name="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="2.403">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Model&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;MakeID&quot; com valor &quot;2&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="2.402"/>
+            <testcase name="Então valido o Schema &quot;schemaModelos&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.525" incomplete="true">
+            <failure>java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/0"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/1"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/2"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/3"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/4"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+
+  Actual: [{"ModelID":4,"ID":21,"Name":"1.5 DX 16V FLEX 4P AUTOMÁTICO"},{"ModelID":4,"ID":22,"Name":"1.5 LX 16V FLEX 4P MANUAL"},{"ModelID":4,"ID":23,"Name":"2.0 EXL 4X4 16V GASOLINA 4P AUTOMÁTICO"},{"ModelID":4,"ID":24,"Name":"1.8 16V EVO FLEX FREEDOM OPEN EDITION AUTOMÁTICO"},{"ModelID":4,"ID":25,"Name":"1.0 MPI EL 8V FLEX 4P MANUAL"}]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)&#13;
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)&#13;
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)&#13;
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:55)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaModelos"(GetAPIWebMotors.feature:19)&#13;
+&#13;
+</failure>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Version&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;ModelID&quot; com valor &quot;4&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.523"/>
+            <testcase name="Então valido o Schema &quot;schemaModelos&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.002">
+              <failure>java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/0"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/1"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/2"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/3"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+error: object has missing required properties (["MakeID"])
+    level: "error"
+    schema: {"loadingURI":"file:/C:/WebMotorsApi/WebMotorsAPI/target/classes/schemaModelos.json#","pointer":"/items"}
+    instance: {"pointer":"/4"}
+    domain: "validation"
+    keyword: "required"
+    required: ["ID","MakeID","Name"]
+    missing: ["MakeID"]
+
+  Actual: [{"ModelID":4,"ID":21,"Name":"1.5 DX 16V FLEX 4P AUTOMÁTICO"},{"ModelID":4,"ID":22,"Name":"1.5 LX 16V FLEX 4P MANUAL"},{"ModelID":4,"ID":23,"Name":"2.0 EXL 4X4 16V GASOLINA 4P AUTOMÁTICO"},{"ModelID":4,"ID":24,"Name":"1.8 16V EVO FLEX FREEDOM OPEN EDITION AUTOMÁTICO"},{"ModelID":4,"ID":25,"Name":"1.0 MPI EL 8V FLEX 4P MANUAL"}]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)&#13;
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)&#13;
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:98)&#13;
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)&#13;
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)&#13;
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:55)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaModelos"(GetAPIWebMotors.feature:19)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

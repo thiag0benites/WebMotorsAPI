@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="15" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" incomplete="true">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" incomplete="true">
+      <testsuite name="Esquema do Cenario: API para recuperar paginas dos veiculos cadastrados na webmotors" incomplete="true">
+        <testsuite name="Exemplos:" incomplete="true">
+          <testsuite name="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.001"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;1&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="2.398"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;2&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true"/>
+            <testcase name="E envio o parâmetro do numero da pagina &quot;3&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true"/>
+            <testcase name="E valido a quantidade de veiculos &quot;1&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

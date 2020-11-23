@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="2.034">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="2.034">
+      <testsuite name="Cenario: API envia pagina inexistente" time="2.034">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="Cenario: API envia pagina inexistente" time="0.001"/>
+        <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;4&quot;" classname="Cenario: API envia pagina inexistente" time="0.001"/>
+        <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="Cenario: API envia pagina inexistente" time="0.0"/>
+        <testcase name="E valido Response Body vazio" classname="Cenario: API envia pagina inexistente" time="2.026"/>
+        <testcase name="Então valido o Schema &quot;schemaPaginaInexistente&quot;" classname="Cenario: API envia pagina inexistente" time="0.006"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

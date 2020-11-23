@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="2.404">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="2.404">
+      <testsuite name="Cenario: API envia pagina invalida" time="2.404">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="Cenario: API envia pagina invalida" time="0.001"/>
+        <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;d&quot;" classname="Cenario: API envia pagina invalida" time="0.001"/>
+        <testcase name="E o Response Code me retorna status &quot;400&quot;" classname="Cenario: API envia pagina invalida" time="2.135"/>
+        <testcase name="E valido o Schema &quot;schemaBuscaInvalida&quot;" classname="Cenario: API envia pagina invalida" time="0.261"/>
+        <testcase name="Então valido Response Body &quot;The request is invalid.&quot; e &quot;The parameters dictionary contains a null entry for parameter 'Page' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Vehicle] Vehicle(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot;" classname="Cenario: API envia pagina invalida" time="0.006"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

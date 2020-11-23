@@ -1,0 +1,19 @@
+{
+    "type": "array",
+    "items":
+    {
+        "type": "object",
+        "properties": 
+        { 
+            "ModelID":{"type": "integer"},
+            "ID": { "type": "integer" },
+            "Name": { "type": "string" }
+        },
+        "required": 
+        [
+            "ModelID",
+            "ID",
+            "Name"
+        ]
+    }
+}

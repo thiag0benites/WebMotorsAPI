@@ -14,8 +14,6 @@ public class WebMotorsAPISteps extends Gets {
 	@SuppressWarnings("unused")
 	private String valor = null;
 	@SuppressWarnings("unused")
-	private String pagina = null;
-	@SuppressWarnings("unused")
 	private String statusCode = null;
 	@SuppressWarnings("unused")
 	private String quantidadeVeiculos = null;
@@ -39,32 +37,25 @@ public class WebMotorsAPISteps extends Gets {
 		relatorio("E envio o parâmetro " + parametro + " com valor " + valor);
 	}
 
-	@Dado("^envio o parâmetro do numero da pagina \"([^\"]*)\"$")
-	public void envioOParâmetroDoNumeroDaPagina(String pagina) {
-		this.pagina = pagina;
-		relatorio("E envio o parâmetro do numero da pagina " + pagina);
-	}
-
 	@Dado("^valido a quantidade de veiculos \"([^\"]*)\"$")
 	public void validoAQuantidadeDeVeiculos(String quantidadeVeiculos) {
-		GetContaPaginas(endPoint, pagina, statusCode, quantidadeVeiculos);
+		GetContaPaginas(endPoint, valor, statusCode, quantidadeVeiculos);
 	}
 
 	@Dado("^valido Response Body vazio$")
-	public void validoResponseBodyVazio() throws Throwable {
-		// Write code here that turns the phrase above into concrete actions
-		throw new PendingException();
+	public void validoResponseBodyVazio() {
+		relatorio("E valido Response Body vazio");
 	}
 	
 	@Então("^valido o Schema \"([^\"]*)\"$")
 	public void validoOSchema(String nomeSchema) {
-		validaSchema(nomeSchema);
+		validaSchema(endPoint, statusCode, parametro, valor, nomeSchema);
 	}
 
 	@Dado("^valido Response Body \"([^\"]*)\" e \"([^\"]*)\"$")
-	public void validoResponseBodyE(String arg1, String arg2) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new PendingException();
+	public void validoResponseBodyE(String message, String messageDetail) {
+		validaItemBodyJson("Message", message);
+		validaItemBodyJson("MessageDetail", messageDetail);
 	}
 
 	

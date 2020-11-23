@@ -16,7 +16,7 @@ Funcionalidade: Valida buscas realizadas
     Dado que envio um GET para o endPoint <endPoint>
     E envio o parâmetro <Parametro> com valor <ValorParametro>
     E o Response Code me retorna status "200"
-    Então valido o Schema "schemaModelos"
+    Então valido o Schema <Schema>
 
     Exemplos: 
       | endPoint                       | Parametro | ValorParametro | Schema          |
@@ -26,7 +26,7 @@ Funcionalidade: Valida buscas realizadas
   @CT04 @POSITIVO
   Esquema do Cenario: API para recuperar paginas dos veiculos cadastrados na webmotors
     Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
-    E envio o parâmetro do numero da pagina <pagina>
+    E envio o parâmetro "Page" com valor <pagina>
     E o Response Code me retorna status <statusCode>
     E valido a quantidade de veiculos <quantidade>
     Então valido o Schema "schemaPaginas"
@@ -46,36 +46,35 @@ Funcionalidade: Valida buscas realizadas
     Então valido o Schema <Schema>
 
     Exemplos: 
-      | endPoint                       | Parametro | Schema                      |
-      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaMakeIdInexeistente"  |
-      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaModelIdInexeistente" |
+      | endPoint                       | Parametro | Schema                    |
+      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaPaginaInexistente" |
+      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaPaginaInexistente" |
 
   @CT06 @NEGATIVO
   Esquema do Cenario: API que envia MakeID e ModelID Invalidos
     Dado que envio um GET para o endPoint <endPoint>
     E envio o parâmetro <Parametro> com valor "L"
     E o Response Code me retorna status "400"
-    E valido Response Body <Message> e <MessageDetail>
-    Então valido o Schema <Schema>
+    E valido o Schema <Schema>
+    Então valido Response Body <Message> e <MessageDetail>
 
     Exemplos: 
-      | endPoint                       | Parametro | Schema                  | Message                   | MessageDetail                                                                                                                                                                                                                                                                                                                                                     |
-      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaMakeIdInvalido"  | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."      |
-      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaModelIdInvalido" | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter." |
+      | endPoint                       | Parametro | Schema                | Message                   | MessageDetail                                                                                                                                                                                                                                                                                                                                                     |
+      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaBuscaInvalida" | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."      |
+      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaBuscaInvalida" | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter." |
 
   @CT07 @NEGATIVO
   Cenario: API envia pagina inexistente
     Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
-    E envio o parâmetro do numero da pagina "4"
+    E envio o parâmetro "Page" com valor "4"
     E o Response Code me retorna status "200"
     E valido Response Body vazio
     Então valido o Schema "schemaPaginaInexistente"
-    
+
   @CT08 @NEGATIVO
   Cenario: API envia pagina invalida
     Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
-    E envio o parâmetro do numero da pagina "d"
+    E envio o parâmetro "Page" com valor "d"
     E o Response Code me retorna status "400"
-    E valido Response Body "The request is invalid." e "The parameters dictionary contains a null entry for parameter 'Page' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Vehicle] Vehicle(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."
-    Então valido o Schema "schemaPaginaInvalido"
-
+    E valido o Schema "schemaBuscaInvalida"
+    Então valido Response Body "The request is invalid." e "The parameters dictionary contains a null entry for parameter 'Page' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Vehicle] Vehicle(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."

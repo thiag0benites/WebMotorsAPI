@@ -2500,3 +2500,310 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact junit:junit:j
 2020-11-22 20:43:41,125 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
 2020-11-22 20:43:41,125 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-22 20:43:41,126 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-22 23:51:55,223 [Worker-43: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-22 23:51:55,223 [Worker-43: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-22 23:51:55,224 [Worker-43: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-22 23:51:55,224 [Worker-43: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:27:02,108 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:27:02,109 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:27:02,110 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:27:02,110 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:35:49,443 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:35:49,444 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:35:49,445 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:35:49,446 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:38:37,610 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-23 00:40:04,683 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebMotorsAPI:WebMotorsAPI:0.0.1-SNAPSHOT @ C:\WebMotorsApi\WebMotorsAPI\pom.xml.
+2020-11-23 00:40:05,905 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.pom
+2020-11-23 00:40:06,322 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.pom
+2020-11-23 00:40:06,498 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/modules/3.0.0/modules-3.0.0.pom
+2020-11-23 00:40:06,683 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/modules/3.0.0/modules-3.0.0.pom
+2020-11-23 00:40:06,856 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-parent/3.0.0/rest-assured-parent-3.0.0.pom
+2020-11-23 00:40:07,140 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/rest-assured-parent/3.0.0/rest-assured-parent-3.0.0.pom
+2020-11-23 00:40:07,420 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar
+2020-11-23 00:40:07,744 [Worker-7: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0.jar
+2020-11-23 00:40:08,146 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:08,146 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:40:08,148 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:08,149 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:40:09,596 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:09,596 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:40:09,600 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:09,600 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:40:09,819 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0-sources.jar
+2020-11-23 00:40:10,145 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/rest-assured/json-schema-validator/3.0.0/json-schema-validator-3.0.0-sources.jar
+2020-11-23 00:40:10,232 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.rest-assured:json-schema-validator:3.0.0
+2020-11-23 00:40:10,645 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:10,645 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:40:10,647 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:40:10,647 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:41:46,898 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: WebMotorsAPI:WebMotorsAPI:0.0.1-SNAPSHOT @ C:\WebMotorsApi\WebMotorsAPI\pom.xml.
+2020-11-23 00:41:47,218 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:41:47,218 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:41:47,220 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:41:47,221 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:41:48,539 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:41:48,540 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:41:48,541 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:41:48,541 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:42:47,518 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:42:47,518 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:42:47,519 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:42:47,519 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 00:44:08,028 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:44:08,028 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 00:44:08,029 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 00:44:08,029 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 01:09:10,309 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:09:10,309 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 01:09:10,310 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:09:10,311 [Worker-22: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 01:16:47,079 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:16:47,080 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 01:16:47,082 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:16:47,082 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 01:27:45,142 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:27:45,143 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 01:27:45,144 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:27:45,145 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 01:27:49,149 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:27:49,150 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 01:27:49,153 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:27:49,153 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 01:31:55,465 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:31:55,465 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 01:31:55,465 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 01:31:55,466 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:34:32,714 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:34:32,715 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:34:32,716 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:34:32,716 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:40:23,739 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:23,739 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:40:23,740 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:23,741 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:40:39,000 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:39,000 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:40:39,001 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:39,002 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:40:47,847 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:47,848 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:40:47,850 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:40:47,851 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:47:47,146 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-23 11:47:59,943 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:47:59,944 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:47:59,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:47:59,946 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:49:56,787 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:49:56,788 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:49:56,790 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:49:56,790 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:51:12,797 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:51:12,798 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:51:12,799 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:51:12,799 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:51:33,671 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:51:33,671 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:51:33,672 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:51:33,673 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:52:23,124 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:52:23,124 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:52:23,125 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:52:23,125 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:52:33,568 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:52:33,568 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:52:33,569 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:52:33,570 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:53:00,354 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:00,354 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:53:00,355 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:00,355 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:53:39,554 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:39,555 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:53:39,557 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:39,558 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:53:55,476 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:55,476 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:53:55,478 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:53:55,478 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:54:02,844 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:54:02,845 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:54:02,850 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:54:02,851 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:55:47,273 [Worker-3: Launching Executing clean in C__WebMotorsApi_WebMotorsAPI] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\WebMotorsApi\WebMotorsAPI
+2020-11-23 11:55:47,277 [Worker-3: Launching Executing clean in C__WebMotorsApi_WebMotorsAPI] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-11-23 11:55:49,057 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:55:49,057 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:55:49,058 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:55:49,058 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:57:29,770 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:57:29,771 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:57:29,772 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:57:29,772 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:58:07,947 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:58:07,947 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:58:07,949 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:58:07,949 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:58:27,582 [Worker-23: Launching Executing install in C__WebMotorsApi_WebMotorsAPI] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\WebMotorsApi\WebMotorsAPI
+2020-11-23 11:58:27,582 [Worker-23: Launching Executing install in C__WebMotorsApi_WebMotorsAPI] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-11-23 11:58:35,216 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:58:35,216 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:58:35,219 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:58:35,219 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:59:17,169 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:59:17,170 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:59:17,171 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:59:17,171 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 11:59:50,015 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:59:50,016 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 11:59:50,020 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 11:59:50,020 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:00:16,724 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:00:16,724 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:00:16,725 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:00:16,725 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:00:53,158 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:00:53,158 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:00:53,159 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:00:53,160 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:01:25,741 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:01:25,742 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:01:25,742 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:01:25,743 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:02:03,749 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:02:03,749 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:02:03,751 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:02:03,751 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:06:22,127 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:22,128 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:06:22,128 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:22,128 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:06:28,367 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:28,368 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:06:28,370 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:28,370 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:06:50,666 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:50,666 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:06:50,668 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:06:50,669 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:08:26,380 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:08:26,381 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:08:26,383 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:08:26,384 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:09:47,212 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:09:47,213 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:09:47,213 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:09:47,213 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:09:52,067 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:09:52,067 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:09:52,068 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:09:52,068 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:11:45,922 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:11:45,922 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:11:45,924 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:11:45,924 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:11:50,406 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:11:50,408 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:11:50,409 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:11:50,410 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:12:14,750 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:12:14,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:12:14,751 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:12:14,752 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:20:27,326 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:20:27,326 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:20:27,327 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:20:27,328 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:27:34,566 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:27:34,566 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:27:34,567 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:27:34,567 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:29:14,571 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:29:14,571 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:29:14,572 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:29:14,572 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:30:46,414 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:30:46,414 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:30:46,414 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:30:46,415 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:37:06,131 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:37:06,132 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:37:06,133 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:37:06,134 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:37:25,549 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:37:25,549 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:37:25,550 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:37:25,550 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:39:23,817 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:39:23,817 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:39:23,818 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:39:23,818 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:45:13,810 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:13,810 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:45:13,811 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:13,811 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:45:23,921 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:23,921 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:45:23,921 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:23,922 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:45:36,991 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:36,991 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:45:36,991 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:45:36,992 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:46:12,373 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:46:12,373 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:46:12,374 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:46:12,374 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:51:11,717 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:51:11,717 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:51:11,718 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:51:11,718 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:55:54,212 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:55:54,212 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:55:54,213 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:55:54,213 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:59:07,338 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:59:07,338 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:59:07,339 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:59:07,339 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 12:59:50,973 [Worker-75: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:59:50,973 [Worker-75: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 12:59:50,974 [Worker-75: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 12:59:50,974 [Worker-75: Launching TestRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:03:53,135 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:03:53,135 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:03:53,136 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:03:53,136 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:09:12,894 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:09:12,894 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:09:12,895 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:09:12,895 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:10:15,308 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:10:15,308 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:10:15,308 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:10:15,309 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:17:36,822 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:17:36,822 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:17:36,823 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:17:36,823 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:19:04,933 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:19:04,933 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:19:04,933 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:19:04,933 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:19:30,928 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:19:30,928 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:19:30,929 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:19:30,929 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:20:06,106 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:20:06,106 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:20:06,106 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:20:06,106 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:23:14,806 [Worker-80: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:23:14,806 [Worker-80: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:23:14,806 [Worker-80: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:23:14,807 [Worker-80: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources
+2020-11-23 13:23:42,618 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:23:42,619 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\main\resources
+2020-11-23 13:23:42,619 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-23 13:23:42,619 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\WebMotorsApi\WebMotorsAPI\src\test\resources

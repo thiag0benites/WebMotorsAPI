@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="56" started="56" failures="0" errors="4" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="8.136">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="8.136">
+      <testsuite name="Cenario: API para recuperar marcas cadastradas na webmotors" time="2.006">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Make&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.001"/>
+        <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="2.002"/>
+        <testcase name="Então valido o Schema &quot;schemaMarcas&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.003"/>
+      </testsuite>
+      <testsuite name="Esquema do Cenario: API para recuperar modelos cadastradas na webmotors" time="0.804">
+        <testsuite name="Exemplos:" time="0.804">
+          <testsuite name="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.409">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Model&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;MakeID&quot; com valor &quot;2&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.408"/>
+            <testcase name="Então valido o Schema &quot;schemaModelos&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.383">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Version&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;ModelID&quot; com valor &quot;4&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.381"/>
+            <testcase name="Então valido o Schema &quot;schemaVersoes&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.002"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Esquema do Cenario: API para recuperar paginas dos veiculos cadastrados na webmotors" time="2.642">
+        <testsuite name="Exemplos:" time="2.642">
+          <testsuite name="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.847">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;1&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.468"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.379"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;1&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.972">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;2&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.542"/>
+            <testcase name="E valido a quantidade de veiculos &quot;10&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.429"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;2&quot; | &quot;200&quot; | &quot;10&quot; |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.801">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;3&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.379"/>
+            <testcase name="E valido a quantidade de veiculos &quot;1&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.42"/>
+            <testcase name="Então valido o Schema &quot;schemaPaginas&quot;" classname="| &quot;3&quot; | &quot;200&quot; | &quot;1&quot; |" time="0.002"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Esquema do Cenario: API que envia MakeID e ModelID com números inexistentes" time="0.812">
+        <testsuite name="Exemplos:" time="0.812">
+          <testsuite name="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.418" incomplete="true">
+            <error>java.lang.IllegalArgumentException: Schema to use cannot be null&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:281)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:61)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:52)&#13;
+	at ✽.Então valido o Schema "schemaMakeIdInexeistente"(GetAPIWebMotors.feature:46)&#13;
+&#13;
+</error>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Model&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;MakeID&quot; com valor &quot;100&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E valido Response Body vazio" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.417"/>
+            <testcase name="Então valido o Schema &quot;schemaMakeIdInexeistente&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaMakeIdInexeistente&quot; |" time="0.001">
+              <error>java.lang.IllegalArgumentException: Schema to use cannot be null&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:281)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:61)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:52)&#13;
+	at ✽.Então valido o Schema "schemaMakeIdInexeistente"(GetAPIWebMotors.feature:46)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.382" incomplete="true">
+            <error>java.lang.IllegalArgumentException: Schema to use cannot be null&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:281)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:61)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:52)&#13;
+	at ✽.Então valido o Schema "schemaModelIdInexeistente"(GetAPIWebMotors.feature:46)&#13;
+&#13;
+</error>
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Version&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;ModelID&quot; com valor &quot;100&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.0"/>
+            <testcase name="E valido Response Body vazio" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.382"/>
+            <testcase name="Então valido o Schema &quot;schemaModelIdInexeistente&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaModelIdInexeistente&quot; |" time="0.0">
+              <error>java.lang.IllegalArgumentException: Schema to use cannot be null&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.validateSchemaIsNotNull(JsonSchemaValidator.java:270)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.access$300(JsonSchemaValidator.java:75)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:281)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:166)&#13;
+	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath(JsonSchemaValidator.java:117)&#13;
+	at requests.com.br.Gets.validaSchema(Gets.java:61)&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:52)&#13;
+	at ✽.Então valido o Schema "schemaModelIdInexeistente"(GetAPIWebMotors.feature:46)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Esquema do Cenario: API que envia MakeID e ModelID Invalidos" time="0.962">
+        <testsuite name="Exemplos:" time="0.962">
+          <testsuite name="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.54">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Model&quot;(| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;MakeID&quot; com valor &quot;L&quot;(| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;400&quot;(| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.383"/>
+            <testcase name="E valido o Schema &quot;schemaBuscaInvalida&quot;(| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.157"/>
+            <testcase name="Então valido Response Body &quot;The request is invalid.&quot; e &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot;(| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.409">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Version&quot;(| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;ModelID&quot; com valor &quot;L&quot;(| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;400&quot;(| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.389"/>
+            <testcase name="E valido o Schema &quot;schemaBuscaInvalida&quot;(| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.019"/>
+            <testcase name="Então valido Response Body &quot;The request is invalid.&quot; e &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot;(| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;schemaBuscaInvalida&quot; | &quot;The request is invalid.&quot; | &quot;The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version" classname="Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot; |" time="0.001"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Cenario: API envia pagina inexistente" time="0.419">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="Cenario: API envia pagina inexistente" time="0.0"/>
+        <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;4&quot;" classname="Cenario: API envia pagina inexistente" time="0.0"/>
+        <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="Cenario: API envia pagina inexistente" time="0.0"/>
+        <testcase name="E valido Response Body vazio" classname="Cenario: API envia pagina inexistente" time="0.419"/>
+        <testcase name="Então valido o Schema &quot;schemaPaginaInexistente&quot;" classname="Cenario: API envia pagina inexistente" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenario: API envia pagina invalida" time="0.417">
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Vehicles&quot;" classname="Cenario: API envia pagina invalida" time="0.0"/>
+        <testcase name="E envio o parâmetro &quot;Page&quot; com valor &quot;d&quot;" classname="Cenario: API envia pagina invalida" time="0.0"/>
+        <testcase name="E o Response Code me retorna status &quot;400&quot;" classname="Cenario: API envia pagina invalida" time="0.386"/>
+        <testcase name="E valido o Schema &quot;schemaBuscaInvalida&quot;" classname="Cenario: API envia pagina invalida" time="0.024"/>
+        <testcase name="Então valido Response Body &quot;The request is invalid.&quot; e &quot;The parameters dictionary contains a null entry for parameter 'Page' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Vehicle] Vehicle(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&quot;" classname="Cenario: API envia pagina invalida" time="0.007"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

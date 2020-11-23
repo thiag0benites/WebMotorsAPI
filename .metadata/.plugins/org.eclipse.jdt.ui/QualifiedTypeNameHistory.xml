@@ -12,4 +12,5 @@
 <fullyQualifiedTypeName name="generics.com.br.Log"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+<fullyQualifiedTypeName name="io.restassured.module.jsv.JsonSchemaValidator"/>
 </qualifiedTypeNameHistroy>

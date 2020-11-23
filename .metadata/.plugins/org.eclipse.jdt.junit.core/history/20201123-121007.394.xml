@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="6.148">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="6.148">
+      <testsuite name="Esquema do Cenario: API para recuperar modelos cadastradas na webmotors" time="6.148">
+        <testsuite name="Exemplos:" time="6.148">
+          <testsuite name="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="5.38">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Model&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.001"/>
+            <testcase name="E envio o parâmetro &quot;MakeID&quot; com valor &quot;2&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.001"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="5.377"/>
+            <testcase name="Então valido o Schema &quot;schemaModelos&quot;" classname="| &quot;/api/OnlineChallenge/Model&quot; | &quot;MakeID&quot; | &quot;2&quot; | &quot;schemaModelos&quot; |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.754">
+            <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Version&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E envio o parâmetro &quot;ModelID&quot; com valor &quot;4&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.0"/>
+            <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.74"/>
+            <testcase name="Então valido o Schema &quot;schemaVersoes&quot;" classname="| &quot;/api/OnlineChallenge/Version&quot; | &quot;ModelID&quot; | &quot;4&quot; | &quot;schemaVersoes&quot; |" time="0.014"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.com.br.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 66, Failures: 0, Errors: 0, Skipped: 56, Time elapsed: 0.353 s - in runner.com.br.TestRunner
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.051 s - in runner.com.br.TestRunner

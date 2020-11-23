@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="WebMotorsAPI" tests="3" started="3" failures="0" errors="2" ignored="0">
+  <testsuite name="runner.com.br.TestRunner" time="0.004">
+    <testsuite name="Funcionalidade: Valida buscas realizadas" time="0.004">
+      <testsuite name="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.004" incomplete="true">
+        <error>java.lang.Error: Unresolved compilation problem: 
+	The method validaSchema(String, String, String, String, String) in the type Gets is not applicable for the arguments (String)
+&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaMarcas"(GetAPIWebMotors.feature:12)&#13;
+&#13;
+</error>
+        <testcase name="Dado que envio um GET para o endPoint &quot;/api/OnlineChallenge/Make&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.001"/>
+        <testcase name="E o Response Code me retorna status &quot;200&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.002"/>
+        <testcase name="Então valido o Schema &quot;schemaMarcas&quot;" classname="Cenario: API para recuperar marcas cadastradas na webmotors" time="0.001">
+          <error>java.lang.Error: Unresolved compilation problem: 
+	The method validaSchema(String, String, String, String, String) in the type Gets is not applicable for the arguments (String)
+&#13;
+	at steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)&#13;
+	at ✽.Então valido o Schema "schemaMarcas"(GetAPIWebMotors.feature:12)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

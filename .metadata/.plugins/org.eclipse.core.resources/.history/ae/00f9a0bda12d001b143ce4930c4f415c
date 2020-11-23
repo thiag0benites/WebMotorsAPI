@@ -1,0 +1,81 @@
+#language: pt
+#Autor: mandy.thiago2511@gmail.com
+@GETS
+Funcionalidade: Valida buscas realizadas
+  Eu como usuario
+  Quero validar as buscas de marca, modelo, versão e estoque
+
+  @CT01 @POSITIVO
+  Cenario: API para recuperar marcas cadastradas na webmotors
+    Dado que envio um GET para o endPoint "/api/OnlineChallenge/Make"
+    E o Response Code me retorna status "200"
+    Então valido o Schema "schemaMarcas"
+
+  @CT02 @POSITIVO
+  Esquema do Cenario: API para recuperar modelos cadastradas na webmotors
+    Dado que envio um GET para o endPoint <endPoint>
+    E envio o parâmetro <Parametro> com valor <ValorParametro>
+    E o Response Code me retorna status "200"
+    Então valido o Schema <Schema>
+
+    Exemplos: 
+      | endPoint                       | Parametro | ValorParametro | Schema          |
+      | "/api/OnlineChallenge/Model"   | "MakeID"  | "2"            | "schemaModelos" |
+      | "/api/OnlineChallenge/Version" | "ModelID" | "4"            | "schemaVersoes" |
+
+  @CT04 @POSITIVO
+  Esquema do Cenario: API para recuperar paginas dos veiculos cadastrados na webmotors
+    Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
+    E envio o parâmetro do numero da pagina <pagina>
+    E o Response Code me retorna status <statusCode>
+    E valido a quantidade de veiculos <quantidade>
+    Então valido o Schema "schemaPaginas"
+
+    Exemplos: 
+      | pagina | statusCode | quantidade |
+      | "1"    | "200"      | "10"       |
+      | "2"    | "200"      | "10"       |
+      | "3"    | "200"      | "1"        |
+
+  @CT05 @NEGATIVO
+  Esquema do Cenario: API que envia MakeID e ModelID com números inexistentes
+    Dado que envio um GET para o endPoint <endPoint>
+    E envio o parâmetro <Parametro> com valor "100"
+    E o Response Code me retorna status "200"
+    E valido Response Body vazio
+    Então valido o Schema <Schema>
+
+    Exemplos: 
+      | endPoint                       | Parametro | Schema                      |
+      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaMakeIdInexeistente"  |
+      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaModelIdInexeistente" |
+
+  @CT06 @NEGATIVO
+  Esquema do Cenario: API que envia MakeID e ModelID Invalidos
+    Dado que envio um GET para o endPoint <endPoint>
+    E envio o parâmetro <Parametro> com valor "L"
+    E o Response Code me retorna status "400"
+    E valido Response Body <Message> e <MessageDetail>
+    Então valido o Schema <Schema>
+
+    Exemplos: 
+      | endPoint                       | Parametro | Schema                  | Message                   | MessageDetail                                                                                                                                                                                                                                                                                                                                                     |
+      | "/api/OnlineChallenge/Model"   | "MakeID"  | "schemaMakeIdInvalido"  | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'MakeID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Model] Model(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."      |
+      | "/api/OnlineChallenge/Version" | "ModelID" | "schemaModelIdInvalido" | "The request is invalid." | "The parameters dictionary contains a null entry for parameter 'ModelID' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Version] Version(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter." |
+
+  @CT07 @NEGATIVO
+  Cenario: API envia pagina inexistente
+    Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
+    E envio o parâmetro do numero da pagina "4"
+    E o Response Code me retorna status "200"
+    E valido Response Body vazio
+    Então valido o Schema "schemaPaginaInexistente"
+    
+  @CT08 @NEGATIVO
+  Cenario: API envia pagina invalida
+    Dado que envio um GET para o endPoint "/api/OnlineChallenge/Vehicles"
+    E envio o parâmetro do numero da pagina "d"
+    E o Response Code me retorna status "400"
+    E valido Response Body "The request is invalid." e "The parameters dictionary contains a null entry for parameter 'Page' of non-nullable type 'System.Int32' for method 'System.Collections.Generic.List`1[Swagger.Models.Vehicle] Vehicle(Int32)' in 'Swagger.Controllers.OnlineChallengeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter."
+    Então valido o Schema "schemaPaginaInvalido"
+
