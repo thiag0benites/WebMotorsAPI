@@ -1,0 +1,70 @@
+package steps.com.br;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.Então;
+
+public class WebMotorsAPISteps {
+
+	private String endPoint = null;
+	private String status = null;
+	private String parametro = null;
+	private String valor = null;
+	private String pagina = null;
+	private String statusCode = null;
+	private String quantidadeVeiculos = null;
+
+	@Dado("^que envio um GET para o endPoint \"([^\"]*)\"$")
+	public void queEnvioUmGETParaOEndPoint(String endPoint) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^o Response Code me retorna status \"([^\"]*)\"$")
+	public void oResponseCodeMeRetornaStatus(String status) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Então("^valido o Schema$")
+	public void validoOSchema() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^envio o parâmetro \"([^\"]*)\" com valor \"([^\"]*)\"$")
+	public void envioOParâmetroComValor(String parametro, String valor) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^envio o parâmetro do numero da pagina \"([^\"]*)\"$")
+	public void envioOParâmetroDoNumeroDaPagina(String pagina) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^deve ser retornado no Responde Code o Status Code \"([^\"]*)\"$")
+	public void deveSerRetornadoNoRespondeCodeOStatusCode(String statusCode) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^valido a quantidade de veiculos \"([^\"]*)\"$")
+	public void validoAQuantidadeDeVeiculos(String quantidadeVeiculos) throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^valido Response Body vazio$")
+	public void validoResponseBodyVazio() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+
+	@Dado("^valido Response Body$")
+	public void validoResponseBody() throws Throwable {
+		// Write code here that turns the phrase above into concrete actions
+		throw new PendingException();
+	}
+}

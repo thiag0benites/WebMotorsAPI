@@ -1,0 +1,50 @@
+package requests.com.br;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.hamcrest.collection.IsArrayContaining;
+
+import org.junit.Assert;
+import generics.com.br.Log;
+import io.restassured.response.Response;
+
+
+public class Gets extends Log {
+	private String url = "http://desafioonline.webmotors.com.br";
+
+	public void TestGet(String endPoint, String statusCodeEsperado, String parametro, String valorParam) {
+
+		if (parametro == null) {
+			given().relaxedHTTPSValidation().when().get(url + endPoint).then()
+					.statusCode(Integer.parseInt(statusCodeEsperado));
+		} else {
+
+			Response response = given().relaxedHTTPSValidation().param(parametro, valorParam).when()
+					.get(url + endPoint);
+
+			String body = response.body().asString();
+			relatorio(body);
+			Assert.assertEquals(Integer.parseInt(statusCodeEsperado), response.statusCode());
+
+		}
+
+	}
+
+	public void TestGetValidaPaginas(String endPoint, String pagina, String statusCode, String quant) {
+
+		Response response = given().relaxedHTTPSValidation().param("Page", pagina).when().get(url + endPoint);
+
+		String body = response.body().asString();
+
+		List<String> jsonResponse = response.jsonPath().getList("$");
+		relatorio(body);
+
+		Assert.assertEquals(Integer.parseInt(statusCode), response.statusCode());
+		Assert.assertEquals(Integer.parseInt(quant), jsonResponse.size());
+	}
+
+}

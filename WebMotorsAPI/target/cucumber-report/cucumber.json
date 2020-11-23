@@ -1,0 +1,131 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#Autor: mandy.thiago2511@gmail.com"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 179300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Config.getScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "API para recuperar marcas cadastradas na webmotors",
+        "description": "",
+        "id": "valida-buscas-realizadas;api-para-recuperar-marcas-cadastradas-na-webmotors",
+        "after": [
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Config.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "output": [
+              "Dado que envio um GET para o endPoint /api/OnlineChallenge/Make executado com sucesso"
+            ],
+            "result": {
+              "duration": 66944400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que envio um GET para o endPoint \"/api/OnlineChallenge/Make\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/api/OnlineChallenge/Make",
+                  "offset": 34
+                }
+              ],
+              "location": "WebMotorsAPISteps.queEnvioUmGETParaOEndPoint(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "output": [
+              "Dado que Response Code me retorna status 200 executado com sucesso"
+            ],
+            "result": {
+              "duration": 250600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o Response Code me retorna status \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "WebMotorsAPISteps.oResponseCodeMeRetornaStatus(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1547300,
+              "error_message": "java.lang.NullPointerException\r\n\tat requests.com.br.Gets.validaSchema(Gets.java:57)\r\n\tat steps.com.br.WebMotorsAPISteps.validoOSchema(WebMotorsAPISteps.java:61)\r\n\tat ✽.Então valido o Schema \"schemaMarcas\"(GetAPIWebMotors.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "valido o Schema \"schemaMarcas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "schemaMarcas",
+                  "offset": 17
+                }
+              ],
+              "location": "WebMotorsAPISteps.validoOSchema(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@CT01"
+          },
+          {
+            "line": 8,
+            "name": "@POSITIVO"
+          }
+        ]
+      }
+    ],
+    "name": "Valida buscas realizadas",
+    "description": "Eu como usuario\nQuero validar as buscas de marca, modelo, versão e estoque",
+    "id": "valida-buscas-realizadas",
+    "keyword": "Funcionalidade",
+    "uri": "GetAPIWebMotors.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@GETS"
+      }
+    ]
+  }
+]

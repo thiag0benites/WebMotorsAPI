@@ -1,0 +1,16 @@
+package generics.com.br;
+
+import java.util.Date;
+
+import config.com.br.Config;
+
+public class Log {
+	Date dataHoraAtual;
+	public void relatorio(String msg) {
+		dataHoraAtual = new Date();
+		String dataHora = new
+		Config.getScenario().write(msg);
+		System.out.println(msg);
+		
+	}
+}

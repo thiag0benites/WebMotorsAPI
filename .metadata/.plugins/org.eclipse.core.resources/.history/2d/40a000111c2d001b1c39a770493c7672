@@ -1,0 +1,16 @@
+{
+	"type": "array",
+	    "items":
+	    {
+	        "type": "object",
+	        "properties": 
+	        { 
+	            "ID": { "type": "integer" },
+	            "Name": { "type": "string" }
+	        },
+	        "required": [
+	            "ID",
+	            "Name"
+	        ]
+	    }
+}
